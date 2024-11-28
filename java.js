@@ -45,3 +45,11 @@ switch(activity){
         console.log("I am not well");
 
 }
+
+
+// random function in javascript
+// Math.random(); 0 to 1
+let randomNumber=Math.random();
+let increaserange=randomNumber*10;
+let WholeNumber=Math.floor(increaserange)
+console.log(WholeNumber)
