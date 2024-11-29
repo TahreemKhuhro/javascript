@@ -53,3 +53,5 @@ let randomNumber=Math.random();
 let increaserange=randomNumber*10;
 let WholeNumber=Math.floor(increaserange)
 console.log(WholeNumber)
+
+// What is this
