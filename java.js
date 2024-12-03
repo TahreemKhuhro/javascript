@@ -96,11 +96,13 @@ for (let x = 1; x < 11;x+2) {
     }
 
 
-// let someArray=["A","B","C","D","E"];
-// let notFound=true;
-// while(notFound && someArray.length>0){
-//     console.log("Found!");
-//     notFound=false;
-// }
-// else{someArray}
-
+let someArray=["A","B","C","D","E"];
+let notFound=true;
+while(notFound && someArray.length>0){
+    if(someArray[0]==="D")
+    {
+    console.log("Found!");
+    notFound=false;
+}
+else{someArray.shift();}
+}
